@@ -45,6 +45,7 @@ $("#target-score").html("Target Score: " + targetScore);
 //Resets your score and generates new random values for the next game
 function resetGame() {
     yourScore = 0;
+    $("#your-score").html(yourScore);
     rubyValue = getOddValues();
     sapphireValue = getRandomValues();
     topazValue = getRandomValues();
@@ -73,7 +74,7 @@ function checkScore() {
     };
 };
 
-//Adds each gemstone's random value to your score upon each click
+//Adds each gemstone's random value to your score upon each click and checks the score for winning and losing clicks
 $(document).ready(function() {
 
         $("#ruby").on("click", function() {
@@ -100,5 +101,4 @@ $(document).ready(function() {
             $("#your-score").html(yourScore);
             checkScore();
         });
-
 });
