@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/images/prism.png);
+    background-image: url(assets/images/prism.png)
 }
 
 #instructions, #wins-losses-and-target-score, #user-score {
