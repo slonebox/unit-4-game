@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/images/prism.png)
+    background-image: url(https://raw.githubusercontent.com/slonebox/unit-4-game/master/assets/images/prism.png)
 }
 
 #instructions, #wins-losses-and-target-score, #user-score {
